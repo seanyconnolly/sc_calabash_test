@@ -1,0 +1,246 @@
+irb(main):008:0> query("*")
+[
+    [ 0] {
+                     "class" => "com.android.internal.policy.impl.PhoneWindow$DecorView",
+                       "tag" => nil,
+               "description" => "com.android.internal.policy.impl.PhoneWindow$DecorView{cec0ada V.E..... R.....I. 0,0-1080,1776}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1776,
+               "width" => 1080,
+                   "y" => 0,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 888
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 1] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{338e928c V.E..... ......I. 0,0-1080,1776}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1776,
+               "width" => 1080,
+                   "y" => 0,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 888
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 2] {
+                     "class" => "android.widget.FrameLayout",
+                       "tag" => nil,
+               "description" => "android.widget.FrameLayout{8a33dd5 V.E..... ......I. 0,75-1080,150}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 75,
+               "width" => 1080,
+                   "y" => 75,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 112
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 3] {
+                     "class" => "android.widget.TextView",
+                       "tag" => nil,
+               "description" => "android.widget.TextView{121669ea V.ED.... ......I. 12,2-1068,70 #1020016 android:id/title}",
+                        "id" => "title",
+                      "text" => "selendroid-test-app",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 68,
+               "width" => 1056,
+                   "y" => 77,
+                   "x" => 12,
+            "center_x" => 540,
+            "center_y" => 111
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 4] {
+                     "class" => "android.widget.FrameLayout",
+                       "tag" => nil,
+               "description" => "android.widget.FrameLayout{1ccc94db V.E..... ......I. 0,150-1080,1776 #1020002 android:id/content}",
+                        "id" => "content",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1626,
+               "width" => 1080,
+                   "y" => 150,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 963
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 5] {
+                     "class" => "android.widget.TableLayout",
+                       "tag" => nil,
+               "description" => "android.widget.TableLayout{14d84b78 V.E..... ......I. 0,0-1080,1626 #7f07001a app:id/webviewTable}",
+                        "id" => "webviewTable",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1626,
+               "width" => 1080,
+                   "y" => 150,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 963
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 6] {
+                     "class" => "android.widget.TableRow",
+                       "tag" => nil,
+               "description" => "android.widget.TableRow{1de6e251 V.E..... ......I. 0,0-1080,57 #7f07001b app:id/tableHeader}",
+                        "id" => "tableHeader",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 57,
+               "width" => 1080,
+                   "y" => 150,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 178
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 7] {
+                     "class" => "android.widget.TextView",
+                       "tag" => nil,
+               "description" => "android.widget.TextView{2fe93ab6 V.ED.... ......I. 240,0-839,57}",
+                        "id" => nil,
+                      "text" => "Web View Interaction",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 57,
+               "width" => 599,
+                   "y" => 150,
+                   "x" => 240,
+            "center_x" => 539,
+            "center_y" => 178
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 8] {
+                     "class" => "android.widget.TableRow",
+                       "tag" => nil,
+               "description" => "android.widget.TableRow{14f5a3b7 V.E..... ......I. 0,57-1080,203 #7f070040 app:id/tableRowButtons}",
+                        "id" => "tableRowButtons",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 146,
+               "width" => 1080,
+                   "y" => 207,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 280
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 9] {
+                     "class" => "io.selendroid.testapp.view.SelendroidSpinner",
+                       "tag" => nil,
+               "description" => "io.selendroid.testapp.view.SelendroidSpinner{1b02a724 VFED..C. ......I. 0,0-599,146 #7f070041 app:id/spinner_webdriver_test_data}",
+                        "id" => "spinner_webdriver_test_data",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 146,
+               "width" => 599,
+                   "y" => 207,
+                   "x" => 0,
+            "center_x" => 299,
+            "center_y" => 280
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [10] {
+                     "class" => "android.widget.TextView",
+                       "tag" => nil,
+               "description" => "android.widget.TextView{38e6528d V.ED.... ......I. 32,33-444,98 #1020014 android:id/text1}",
+                        "id" => "text1",
+                      "text" => "'Say Hello'-Demo",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 65,
+               "width" => 412,
+                   "y" => 240,
+                   "x" => 32,
+            "center_x" => 238,
+            "center_y" => 272
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [11] {
+                     "class" => "android.widget.Button",
+                       "tag" => nil,
+               "description" => "android.widget.Button{d464c42 VFED..C. ......I. 599,3-1080,147 #7f070042 app:id/goBack}",
+                        "id" => "goBack",
+                      "text" => "Go to home screen",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 144,
+               "width" => 481,
+                   "y" => 210,
+                   "x" => 599,
+            "center_x" => 839,
+            "center_y" => 282
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [12] {
+                     "class" => "android.widget.TableRow",
+                       "tag" => nil,
+               "description" => "android.widget.TableRow{f36c453 V.E..... ......I. 0,203-1080,875 #7f070043 app:id/tableRowWebview}",
+                        "id" => "tableRowWebview",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 672,
+               "width" => 1080,
+                   "y" => 353,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 689
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [13] {
+                     "class" => "android.webkit.WebView",
+                       "tag" => nil,
+               "description" => "android.webkit.WebView{15551190 VFEDHVC. .F....I. 0,0-1080,672 #7f070044 app:id/mainWebView}",
+                        "id" => "mainWebView",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 672,
+               "width" => 1080,
+                   "y" => 353,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 689
+        },
+                   "enabled" => true,
+        "contentDescription" => "Web View"
+    }
+]
+irb(main):009:0>

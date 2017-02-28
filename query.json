@@ -1,0 +1,463 @@
+calabash-android resign /Users/seany/Desktop/interview/SampleApk.apk
+
+irb(main):003:0> query("*")
+[
+    [ 0] {
+                     "class" => "com.android.internal.policy.impl.PhoneWindow$DecorView",
+                       "tag" => nil,
+               "description" => "com.android.internal.policy.impl.PhoneWindow$DecorView{2f89594f V.E..... R.....ID 0,0-1080,1776}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1776,
+               "width" => 1080,
+                   "y" => 0,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 888
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 1] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{3b77550e V.E..... ......ID 0,0-1080,1776}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1776,
+               "width" => 1080,
+                   "y" => 0,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 888
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 2] {
+                     "class" => "android.widget.FrameLayout",
+                       "tag" => nil,
+               "description" => "android.widget.FrameLayout{48dab2f V.E..... ......I. 0,75-1080,150}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 75,
+               "width" => 1080,
+                   "y" => 75,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 112
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 3] {
+                     "class" => "android.widget.TextView",
+                       "tag" => nil,
+               "description" => "android.widget.TextView{2fd4653c V.ED.... ......I. 12,2-1068,70 #1020016 android:id/title}",
+                        "id" => "title",
+                      "text" => "selendroid-test-app",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 68,
+               "width" => 1056,
+                   "y" => 77,
+                   "x" => 12,
+            "center_x" => 540,
+            "center_y" => 111
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 4] {
+                     "class" => "android.widget.FrameLayout",
+                       "tag" => nil,
+               "description" => "android.widget.FrameLayout{1caf92c5 V.E..... ......ID 0,150-1080,1776 #1020002 android:id/content}",
+                        "id" => "content",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1626,
+               "width" => 1080,
+                   "y" => 150,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 963
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 5] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{3ed7b41a V.E..... ......ID 0,0-1080,1371}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1371,
+               "width" => 1080,
+                   "y" => 150,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 835
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 6] {
+                     "class" => "android.widget.TextView",
+                       "tag" => nil,
+               "description" => "android.widget.TextView{20d3cb4b V.ED.... ......I. 0,0-1080,57}",
+                        "id" => nil,
+                      "text" => "Hello Default Locale, Selendroid-test-app!",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 57,
+               "width" => 1080,
+                   "y" => 150,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 178
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 7] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{9209928 V.E..... ......I. 0,57-1080,201 #7f070000 app:id/l10n}",
+                        "id" => "l10n",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 144,
+               "width" => 1080,
+                   "y" => 207,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 279
+        },
+                   "enabled" => true,
+        "contentDescription" => "l10nCD"
+    },
+    [ 8] {
+                     "class" => "android.widget.TextView",
+                       "tag" => nil,
+               "description" => "android.widget.TextView{2e7b9641 V.ED.... ......I. 0,36-583,93}",
+                        "id" => nil,
+                      "text" => "Localization (L10n) locator test",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 57,
+               "width" => 583,
+                   "y" => 243,
+                   "x" => 0,
+            "center_x" => 291,
+            "center_y" => 271
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 9] {
+                     "class" => "android.widget.Button",
+                       "tag" => nil,
+               "description" => "android.widget.Button{29acf7e6 VFED..CL ......I. 583,0-838,144 #7f070001 app:id/buttonTest}",
+                        "id" => "buttonTest",
+                      "text" => "EN Button",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 144,
+               "width" => 255,
+                   "y" => 207,
+                   "x" => 583,
+            "center_x" => 710,
+            "center_y" => 279
+        },
+                   "enabled" => true,
+        "contentDescription" => "buttonTestCD"
+    },
+    [10] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{1411d127 V.E..... ......I. 0,201-1080,384 #7f070002 app:id/imageView}",
+                        "id" => "imageView",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 183,
+               "width" => 1080,
+                   "y" => 351,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 442
+        },
+                   "enabled" => true,
+        "contentDescription" => "imageViewCD"
+    },
+    [11] {
+                     "class" => "android.widget.ImageButton",
+                       "tag" => nil,
+               "description" => "android.widget.ImageButton{247a1fd4 VFED..C. ......I. 0,0-540,183 #7f070003 app:id/buttonStartWebview}",
+                        "id" => "buttonStartWebview",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 183,
+               "width" => 540,
+                   "y" => 351,
+                   "x" => 0,
+            "center_x" => 270,
+            "center_y" => 442
+        },
+                   "enabled" => true,
+        "contentDescription" => "buttonStartWebviewCD"
+    },
+    [12] {
+                     "class" => "android.widget.ImageButton",
+                       "tag" => nil,
+               "description" => "android.widget.ImageButton{2faa557d VFED..C. ......I. 540,0-1080,183 #7f070004 app:id/startUserRegistration}",
+                        "id" => "startUserRegistration",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 183,
+               "width" => 540,
+                   "y" => 351,
+                   "x" => 540,
+            "center_x" => 810,
+            "center_y" => 442
+        },
+                   "enabled" => true,
+        "contentDescription" => "startUserRegistrationCD"
+    },
+    [13] {
+                     "class" => "android.widget.EditText",
+                       "tag" => nil,
+               "description" => "android.widget.EditText{d40ac72 VFED..CL .F....ID 0,384-1080,528 #7f070005 app:id/my_text_field}",
+                        "id" => "my_text_field",
+                      "text" => "",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 144,
+               "width" => 1080,
+                   "y" => 534,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 606
+        },
+                   "enabled" => true,
+        "contentDescription" => "my_text_fieldCD"
+    },
+    [14] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{2b4058c3 V.E..... ......I. 0,528-1080,672 #7f070006 app:id/lastElementRow}",
+                        "id" => "lastElementRow",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 144,
+               "width" => 1080,
+                   "y" => 678,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 750
+        },
+                   "enabled" => true,
+        "contentDescription" => "imageViewCD"
+    },
+    [15] {
+                     "class" => "android.widget.Button",
+                       "tag" => nil,
+               "description" => "android.widget.Button{2f436540 VFED..C. ......I. 0,9-626,153 #7f070007 app:id/waitingButtonTest}",
+                        "id" => "waitingButtonTest",
+                      "text" => "Show Progress Bar for a while",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 144,
+               "width" => 626,
+                   "y" => 687,
+                   "x" => 0,
+            "center_x" => 313,
+            "center_y" => 759
+        },
+                   "enabled" => true,
+        "contentDescription" => "waitingButtonTestCD"
+    },
+    [16] {
+                     "class" => "android.widget.CheckBox",
+                       "tag" => nil,
+               "description" => "android.widget.CheckBox{380bcc79 VFED..C. ......I. 626,0-1026,144 #7f070008 app:id/input_adds_check_box}",
+                        "id" => "input_adds_check_box",
+                      "text" => "I accept adds",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 144,
+               "width" => 400,
+                   "y" => 678,
+                   "x" => 626,
+            "center_x" => 826,
+            "center_y" => 750
+        },
+                   "enabled" => true,
+                   "checked" => true,
+        "contentDescription" => nil
+    },
+    [17] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{13e91dbe V.E..... ......I. 0,672-1080,816 #7f070009 app:id/visibleTestArea}",
+                        "id" => "visibleTestArea",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 144,
+               "width" => 1080,
+                   "y" => 822,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 894
+        },
+                   "enabled" => true,
+        "contentDescription" => "visibleTestAreaCD"
+    },
+    [18] {
+                     "class" => "android.widget.Button",
+                       "tag" => nil,
+               "description" => "android.widget.Button{45be1f VFED..C. ......I. 0,0-379,144 #7f07000a app:id/visibleButtonTest}",
+                        "id" => "visibleButtonTest",
+                      "text" => "Display text view",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 144,
+               "width" => 379,
+                   "y" => 822,
+                   "x" => 0,
+            "center_x" => 189,
+            "center_y" => 894
+        },
+                   "enabled" => true,
+        "contentDescription" => "visibleButtonTestCD"
+    },
+    [19] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{899956c V.E..... ......I. 0,816-1080,1026 #7f070009 app:id/visibleTestArea}",
+                        "id" => "visibleTestArea",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 210,
+               "width" => 1080,
+                   "y" => 966,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 1071
+        },
+                   "enabled" => true,
+        "contentDescription" => "visibleTestAreaCD"
+    },
+    [20] {
+                     "class" => "android.widget.Button",
+                       "tag" => nil,
+               "description" => "android.widget.Button{3273b735 VFED..C. ......I. 0,0-360,210 #7f07000c app:id/showToastButton}",
+                        "id" => "showToastButton",
+                      "text" => "Displays a Toast",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 210,
+               "width" => 360,
+                   "y" => 966,
+                   "x" => 0,
+            "center_x" => 180,
+            "center_y" => 1071
+        },
+                   "enabled" => true,
+        "contentDescription" => "showToastButtonCD"
+    },
+    [21] {
+                     "class" => "android.widget.Button",
+                       "tag" => nil,
+               "description" => "android.widget.Button{251557ca VFED..C. ......I. 360,0-720,210 #7f07000d app:id/showPopupWindowButton}",
+                        "id" => "showPopupWindowButton",
+                      "text" => "Display Popup Window",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 210,
+               "width" => 360,
+                   "y" => 966,
+                   "x" => 360,
+            "center_x" => 540,
+            "center_y" => 1071
+        },
+                   "enabled" => true,
+        "contentDescription" => "showPopupWindowButtonCD"
+    },
+    [22] {
+                     "class" => "android.widget.Button",
+                       "tag" => nil,
+               "description" => "android.widget.Button{3b121d3b VFED..C. ......I. 720,0-1080,210 #7f07000e app:id/exceptionTestButton}",
+                        "id" => "exceptionTestButton",
+                      "text" => "Press to throw unhandled exception",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 210,
+               "width" => 360,
+                   "y" => 966,
+                   "x" => 720,
+            "center_x" => 900,
+            "center_y" => 1071
+        },
+                   "enabled" => true,
+        "contentDescription" => "exceptionTestButtonCD"
+    },
+    [23] {
+                     "class" => "android.widget.EditText",
+                       "tag" => nil,
+               "description" => "android.widget.EditText{2409c58 VFED..CL ......I. 0,1026-1080,1170 #7f07000f app:id/exceptionTestField}",
+                        "id" => "exceptionTestField",
+                      "text" => "",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 144,
+               "width" => 1080,
+                   "y" => 1176,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 1248
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [24] {
+                     "class" => "android.widget.TextView",
+                       "tag" => nil,
+               "description" => "android.widget.TextView{293591b1 V.ED.... ......I. 0,1170-1080,1227 #7f070010 app:id/encodingTextview}",
+                        "id" => "encodingTextview",
+                      "text" => "パソコン版にする",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 57,
+               "width" => 1080,
+                   "y" => 1320,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 1348
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [25] {
+                     "class" => "android.widget.Button",
+                       "tag" => nil,
+               "description" => "android.widget.Button{3e192696 VFED..C. ......I. 0,1227-581,1371 #7f070011 app:id/topLevelElementTest}",
+                        "id" => "topLevelElementTest",
+                      "text" => "Display and focus on layout",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 144,
+               "width" => 581,
+                   "y" => 1377,
+                   "x" => 0,
+            "center_x" => 290,
+            "center_y" => 1449
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    }
+]
+irb(main):004:0>
